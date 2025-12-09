@@ -4,53 +4,53 @@
 
 @layer base {
   :root {
-    /* Light scoreboard theme */
-    --background: 210 20% 96%;
-    --foreground: 220 25% 15%;
+    /* High-contrast TV/Daylight theme */
+    --background: 0 0% 100%;
+    --foreground: 220 20% 10%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 220 25% 15%;
+    --card: 210 20% 98%;
+    --card-foreground: 220 20% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 25% 15%;
+    --popover-foreground: 220 20% 10%;
 
-    /* Deep blue primary */
-    --primary: 220 70% 45%;
+    /* Deep navy primary - high contrast */
+    --primary: 220 80% 30%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 15% 92%;
-    --secondary-foreground: 220 25% 20%;
+    --secondary: 210 20% 94%;
+    --secondary-foreground: 220 20% 15%;
 
-    --muted: 210 15% 88%;
-    --muted-foreground: 220 10% 45%;
+    --muted: 210 15% 90%;
+    --muted-foreground: 220 15% 35%;
 
-    /* Teal accent */
-    --accent: 175 70% 40%;
+    /* Teal accent - vibrant */
+    --accent: 175 80% 35%;
     --accent-foreground: 0 0% 100%;
 
-    /* Red for destructive */
-    --destructive: 0 72% 51%;
+    /* Bright red for destructive - high visibility */
+    --destructive: 0 85% 45%;
     --destructive-foreground: 0 0% 100%;
 
-    /* Amber for warnings */
-    --warning: 38 92% 50%;
-    --warning-foreground: 220 25% 15%;
+    /* Amber for warnings - bright */
+    --warning: 38 95% 50%;
+    --warning-foreground: 220 20% 10%;
 
-    /* Status colors */
-    --success: 145 65% 40%;
-    --info: 199 89% 48%;
+    /* Status colors - saturated for visibility */
+    --success: 145 70% 35%;
+    --info: 199 90% 45%;
 
-    --border: 210 15% 85%;
-    --input: 210 15% 90%;
-    --ring: 220 70% 45%;
+    --border: 220 15% 80%;
+    --input: 210 15% 92%;
+    --ring: 220 80% 30%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
-    /* Shadow effects for light theme */
-    --glow-primary: 0 4px 12px hsl(220 70% 45% / 0.15);
-    --glow-accent: 0 4px 12px hsl(175 70% 40% / 0.15);
-    --glow-warning: 0 4px 12px hsl(38 92% 50% / 0.2);
-    --glow-destructive: 0 4px 12px hsl(0 72% 51% / 0.2);
+    /* Strong shadows for depth on bright screens */
+    --glow-primary: 0 4px 16px hsl(220 80% 30% / 0.2);
+    --glow-accent: 0 4px 16px hsl(175 80% 35% / 0.2);
+    --glow-warning: 0 4px 16px hsl(38 95% 50% / 0.25);
+    --glow-destructive: 0 4px 16px hsl(0 85% 45% / 0.25);
   }
 }
 
