@@ -258,7 +258,7 @@ export default function MatchController({ onPublishResult }: MatchControllerProp
   }, [phase, htRemaining]);
 
   return (
-    <div className="h-screen w-full p-4 flex flex-col gap-4 overflow-hidden">
+    <div className="h-full w-full p-3 flex flex-col gap-3 overflow-hidden">
       {/* Top Section: Teams + Clock */}
       <div className="flex-1 grid grid-cols-[1fr_280px] gap-4 min-h-0">
         {/* Teams Container */}
