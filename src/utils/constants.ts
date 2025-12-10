@@ -8,7 +8,7 @@ export const Phase = {
 
 export type PhaseType = (typeof Phase)[keyof typeof Phase];
 
-export const HALF_PLAY_SECONDS = 180; // 3 minutes per half
+export const HALF_PLAY_SECONDS = 90; // 3 minutes per half
 export const HALVES = 2;
 export const HALF_TIME_BREAK_SECONDS = 90; // 1:30 half-time
 export const TIMEOUT_ALLOWED_SECONDS = 30;
