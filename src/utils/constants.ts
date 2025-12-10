@@ -11,6 +11,6 @@ export type PhaseType = (typeof Phase)[keyof typeof Phase];
 export const HALF_PLAY_SECONDS = 90; // 3 minutes per half
 export const HALVES = 2;
 export const HALF_TIME_BREAK_SECONDS = 90; // 1:30 half-time
-export const TIMEOUT_ALLOWED_SECONDS = 30;
-export const TIMEOUT_TECHNICAL_THRESHOLD = 45; // Technical point awarded
+export const TIMEOUT_ALLOWED_SECONDS = 40;
+export const TIMEOUT_TECHNICAL_THRESHOLD = 50; // Technical point awarded
 export const TIMEOUT_DQ_THRESHOLD = 90; // 1:30 = disqualification
